@@ -28,9 +28,13 @@
     
     // set count label
     [count setText:@""];
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     [client getPath:@"/api" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [self setCountFromResponseOperation:operation];
-    } failure:nil];
+        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+    }];
 }
 
 - (void)viewDidUnload
@@ -56,11 +60,14 @@
     // disable button while POST is in progress
     [button setEnabled:NO];
     
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     [client postPath:@"/api" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [self setCountFromResponseOperation:operation];
         [button setEnabled:YES];
+        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         [button setEnabled:YES];
+        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
     }];
 }
 
