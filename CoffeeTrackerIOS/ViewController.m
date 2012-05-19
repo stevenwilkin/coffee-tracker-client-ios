@@ -34,7 +34,6 @@
     [count setText:@""];
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     [client getPath:@"/api" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"> success");
         [self setCountFromResponseOperation:operation];
         [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
