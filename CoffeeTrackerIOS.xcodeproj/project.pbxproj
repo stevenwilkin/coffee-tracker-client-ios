@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA50E87215680DD60007A151 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50E87115680DD60007A151 /* UIKit.framework */; };
+		AA50E87415680DD60007A151 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50E87315680DD60007A151 /* Foundation.framework */; };
+		AA50E87615680DD60007A151 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50E87515680DD60007A151 /* CoreGraphics.framework */; };
+		AA50E87C15680DD60007A151 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA50E87A15680DD60007A151 /* InfoPlist.strings */; };
+		AA50E87E15680DD60007A151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E87D15680DD60007A151 /* main.m */; };
+		AA50E88215680DD60007A151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E88115680DD60007A151 /* AppDelegate.m */; };
+		AA50E88515680DD60007A151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E88415680DD60007A151 /* ViewController.m */; };
+		AA50E88815680DD60007A151 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA50E88615680DD60007A151 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA50E86D15680DD60007A151 /* CoffeeTrackerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeTrackerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA50E87115680DD60007A151 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA50E87315680DD60007A151 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA50E87515680DD60007A151 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA50E87915680DD60007A151 /* CoffeeTrackerIOS-Info.plist */ = {isa = PBXFileReference; path = "CoffeeTrackerIOS-Info.plist"; sourceTree = "<group>"; };
+		AA50E87B15680DD60007A151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA50E87D15680DD60007A151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA50E87F15680DD60007A151 /* CoffeeTrackerIOS-Prefix.pch */ = {isa = PBXFileReference; path = "CoffeeTrackerIOS-Prefix.pch"; sourceTree = "<group>"; };
+		AA50E88015680DD60007A151 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA50E88115680DD60007A151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA50E88315680DD60007A151 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AA50E88415680DD60007A151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA50E88715680DD60007A151 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA50E86A15680DD60007A151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50E87215680DD60007A151 /* UIKit.framework in Frameworks */,
+				AA50E87415680DD60007A151 /* Foundation.framework in Frameworks */,
+				AA50E87615680DD60007A151 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA50E86215680DD60007A151 = {
+			isa = PBXGroup;
+			children = (
+				AA50E87715680DD60007A151 /* CoffeeTrackerIOS */,
+				AA50E87015680DD60007A151 /* Frameworks */,
+				AA50E86E15680DD60007A151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA50E86E15680DD60007A151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA50E86D15680DD60007A151 /* CoffeeTrackerIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA50E87015680DD60007A151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA50E87115680DD60007A151 /* UIKit.framework */,
+				AA50E87315680DD60007A151 /* Foundation.framework */,
+				AA50E87515680DD60007A151 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA50E87715680DD60007A151 /* CoffeeTrackerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA50E88015680DD60007A151 /* AppDelegate.h */,
+				AA50E88115680DD60007A151 /* AppDelegate.m */,
+				AA50E88315680DD60007A151 /* ViewController.h */,
+				AA50E88415680DD60007A151 /* ViewController.m */,
+				AA50E88615680DD60007A151 /* ViewController.xib */,
+				AA50E87815680DD60007A151 /* Supporting Files */,
+			);
+			path = CoffeeTrackerIOS;
+			sourceTree = "<group>";
+		};
+		AA50E87815680DD60007A151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA50E87915680DD60007A151 /* CoffeeTrackerIOS-Info.plist */,
+				AA50E87A15680DD60007A151 /* InfoPlist.strings */,
+				AA50E87D15680DD60007A151 /* main.m */,
+				AA50E87F15680DD60007A151 /* CoffeeTrackerIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA50E86C15680DD60007A151 /* CoffeeTrackerIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA50E88B15680DD60007A151 /* Build configuration list for PBXNativeTarget "CoffeeTrackerIOS" */;
+			buildPhases = (
+				AA50E86915680DD60007A151 /* Sources */,
+				AA50E86A15680DD60007A151 /* Frameworks */,
+				AA50E86B15680DD60007A151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeTrackerIOS;
+			productName = CoffeeTrackerIOS;
+			productReference = AA50E86D15680DD60007A151 /* CoffeeTrackerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA50E86415680DD60007A151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "NullTheory Ltd";
+			};
+			buildConfigurationList = AA50E86715680DD60007A151 /* Build configuration list for PBXProject "CoffeeTrackerIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA50E86215680DD60007A151;
+			productRefGroup = AA50E86E15680DD60007A151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA50E86C15680DD60007A151 /* CoffeeTrackerIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA50E86B15680DD60007A151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50E87C15680DD60007A151 /* InfoPlist.strings in Resources */,
+				AA50E88815680DD60007A151 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA50E86915680DD60007A151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50E87E15680DD60007A151 /* main.m in Sources */,
+				AA50E88215680DD60007A151 /* AppDelegate.m in Sources */,
+				AA50E88515680DD60007A151 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA50E87A15680DD60007A151 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA50E87B15680DD60007A151 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA50E88615680DD60007A151 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA50E88715680DD60007A151 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA50E88915680DD60007A151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA50E88A15680DD60007A151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA50E88C15680DD60007A151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeTrackerIOS/CoffeeTrackerIOS-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeTrackerIOS/CoffeeTrackerIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA50E88D15680DD60007A151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeTrackerIOS/CoffeeTrackerIOS-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeTrackerIOS/CoffeeTrackerIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA50E86715680DD60007A151 /* Build configuration list for PBXProject "CoffeeTrackerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA50E88915680DD60007A151 /* Debug */,
+				AA50E88A15680DD60007A151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA50E88B15680DD60007A151 /* Build configuration list for PBXNativeTarget "CoffeeTrackerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA50E88C15680DD60007A151 /* Debug */,
+				AA50E88D15680DD60007A151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA50E86415680DD60007A151 /* Project object */;
+}
