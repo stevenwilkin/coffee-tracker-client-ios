@@ -25,7 +25,9 @@
     client = [[AFHTTPClient alloc] initWithBaseURL:url];
     // API key must be set in pre-processor macros
     [client setDefaultHeader:@"X-API-KEY" value:API_KEY];
-    
+}
+
+- (void)fetchCoffee {
     // set count label
     [count setText:@""];
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];

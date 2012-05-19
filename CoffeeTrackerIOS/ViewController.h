@@ -29,5 +29,6 @@
 
 - (void)setCountFromResponseOperation:(AFHTTPRequestOperation *)operation;
 - (IBAction)trackCoffee:(id)sender;
+- (void)fetchCoffee;
 
 @end
