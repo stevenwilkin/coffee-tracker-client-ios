@@ -30,7 +30,6 @@
 		AA50E8B81568296B0007A151 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E8AD1568296B0007A151 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AA50E8B91568296B0007A151 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E8AF1568296B0007A151 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AA50E8BC15683F6B0007A151 /* coffee_cup_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA50E8BB15683F6B0007A151 /* coffee_cup_icon.png */; };
-		AA50E8BE15683F9F0007A151 /* coffee_cup_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA50E8BD15683F9F0007A151 /* coffee_cup_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,7 +73,6 @@
 		AA50E8AF1568296B0007A151 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		AA50E8BA15682A730007A151 /* ApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiKey.h; sourceTree = "<group>"; };
 		AA50E8BB15683F6B0007A151 /* coffee_cup_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coffee_cup_icon.png; path = ../../../../images/coffee_cup_icon.png; sourceTree = "<group>"; };
-		AA50E8BD15683F9F0007A151 /* coffee_cup_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee_cup_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +92,6 @@
 		AA50E86215680DD60007A151 = {
 			isa = PBXGroup;
 			children = (
-				AA50E8BD15683F9F0007A151 /* coffee_cup_icon.png */,
 				AA50E89A1568296B0007A151 /* AFNetworking */,
 				AA50E87715680DD60007A151 /* CoffeeTrackerIOS */,
 				AA50E87015680DD60007A151 /* Frameworks */,
@@ -237,7 +234,6 @@
 				AA50E8971568259C0007A151 /* btn-bg.png in Resources */,
 				AA50E899156826E60007A151 /* btn-bg@2x.png in Resources */,
 				AA50E8BC15683F6B0007A151 /* coffee_cup_icon.png in Resources */,
-				AA50E8BE15683F9F0007A151 /* coffee_cup_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +368,7 @@
 				AA50E88D15680DD60007A151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
