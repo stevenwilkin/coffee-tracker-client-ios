@@ -15,6 +15,10 @@
 		AA50E88215680DD60007A151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E88115680DD60007A151 /* AppDelegate.m */; };
 		AA50E88515680DD60007A151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E88415680DD60007A151 /* ViewController.m */; };
 		AA50E88815680DD60007A151 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA50E88615680DD60007A151 /* ViewController.xib */; };
+		AA50E893156815E40007A151 /* coffee-lovers-fresh-brew-foursquare-badge.png in Resources */ = {isa = PBXBuildFile; fileRef = AA50E892156815E40007A151 /* coffee-lovers-fresh-brew-foursquare-badge.png */; };
+		AA50E8951568183B0007A151 /* grains_of_coffee_goods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA50E8941568183B0007A151 /* grains_of_coffee_goods.jpg */; };
+		AA50E8971568259C0007A151 /* btn-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AA50E8961568259C0007A151 /* btn-bg.png */; };
+		AA50E899156826E60007A151 /* btn-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA50E898156826E60007A151 /* btn-bg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,19 @@
 		AA50E87115680DD60007A151 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA50E87315680DD60007A151 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA50E87515680DD60007A151 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AA50E87915680DD60007A151 /* CoffeeTrackerIOS-Info.plist */ = {isa = PBXFileReference; path = "CoffeeTrackerIOS-Info.plist"; sourceTree = "<group>"; };
+		AA50E87915680DD60007A151 /* CoffeeTrackerIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeTrackerIOS-Info.plist"; sourceTree = "<group>"; };
 		AA50E87B15680DD60007A151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA50E87D15680DD60007A151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AA50E87F15680DD60007A151 /* CoffeeTrackerIOS-Prefix.pch */ = {isa = PBXFileReference; path = "CoffeeTrackerIOS-Prefix.pch"; sourceTree = "<group>"; };
-		AA50E88015680DD60007A151 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA50E87F15680DD60007A151 /* CoffeeTrackerIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeTrackerIOS-Prefix.pch"; sourceTree = "<group>"; };
+		AA50E88015680DD60007A151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA50E88115680DD60007A151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA50E88315680DD60007A151 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AA50E88315680DD60007A151 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AA50E88415680DD60007A151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AA50E88715680DD60007A151 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AA50E892156815E40007A151 /* coffee-lovers-fresh-brew-foursquare-badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffee-lovers-fresh-brew-foursquare-badge.png"; sourceTree = "<group>"; };
+		AA50E8941568183B0007A151 /* grains_of_coffee_goods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grains_of_coffee_goods.jpg; sourceTree = "<group>"; };
+		AA50E8961568259C0007A151 /* btn-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-bg.png"; sourceTree = "<group>"; };
+		AA50E898156826E60007A151 /* btn-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-bg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,10 @@
 		AA50E87815680DD60007A151 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA50E8941568183B0007A151 /* grains_of_coffee_goods.jpg */,
+				AA50E898156826E60007A151 /* btn-bg@2x.png */,
+				AA50E8961568259C0007A151 /* btn-bg.png */,
+				AA50E892156815E40007A151 /* coffee-lovers-fresh-brew-foursquare-badge.png */,
 				AA50E87915680DD60007A151 /* CoffeeTrackerIOS-Info.plist */,
 				AA50E87A15680DD60007A151 /* InfoPlist.strings */,
 				AA50E87D15680DD60007A151 /* main.m */,
@@ -151,6 +163,10 @@
 			files = (
 				AA50E87C15680DD60007A151 /* InfoPlist.strings in Resources */,
 				AA50E88815680DD60007A151 /* ViewController.xib in Resources */,
+				AA50E893156815E40007A151 /* coffee-lovers-fresh-brew-foursquare-badge.png in Resources */,
+				AA50E8951568183B0007A151 /* grains_of_coffee_goods.jpg in Resources */,
+				AA50E8971568259C0007A151 /* btn-bg.png in Resources */,
+				AA50E899156826E60007A151 /* btn-bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

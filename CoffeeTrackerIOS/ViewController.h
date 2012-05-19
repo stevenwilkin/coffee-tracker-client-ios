@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) IBOutlet UIButton *button;
+
+- (IBAction)trackCoffee:(id)sender;
+
 @end

@@ -8,27 +8,30 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
+
+@synthesize button;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIImage *image = [UIImage imageNamed:@"btn-bg.png"];
+    UIImage *stretchedImage = [image stretchableImageWithLeftCapWidth:6 topCapHeight:0];
+    [button setBackgroundImage:stretchedImage forState:UIControlStateNormal];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)trackCoffee:(id)sender {
+    NSLog(@"> coffee!");
 }
 
 @end
