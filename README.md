@@ -4,6 +4,6 @@ Demo iOS client for my [coffee-tracker](https://github.com/stevenwilkin/coffee-t
 
 ## Running
 
-Compiles under Xcode 4.3.2.
+Compiles under Xcode 4.5.2.
 
 Copy `CoffeeTrackerIOS/ApiKey.h-dist` to `CoffeeTrackerIOS/ApiKey.h` and enter a valid API key for the service (see coffee-tracker README)
